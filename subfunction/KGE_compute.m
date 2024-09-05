@@ -1,4 +1,4 @@
-function kge= KGE_compute(observed,modelled)
+function kge= KGE_compute(modelled,observed)
 
 modelled(isnan(observed))=NaN;
 cflow=[modelled,observed];
